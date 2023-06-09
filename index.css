@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(resimler/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+.logo{
+    border-radius: 40%;
+}
+
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0px 3px red;
+    transition: all 500ms;
+}
+
+.content{
+    margin: 300px auto 0px auto;
+    text-align: center;
+}
+
+.content .assets{
+    margin: 0px auto 60px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.content .assets h1{
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    border-top: 2px solid #a4b24c;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.content .assets h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content .assets p{
+    color: rgba(240, 248, 255, 0.763);
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.content .assets img{
+    margin: 30px auto;
+}
+
+
+
+
+/* ana sayfa  */
+
+.ad{
+    font-family: 'Ysabeau', sans-serif;
+    margin: 300px auto 200px auto;
+    width: 80%;
+    z-index: 0;
+}
+.ad h1{
+    color: rgb(30, 42, 172);
+    text-align: center;
+
+}
+.ad .title{
+    font-family: 'Poppins' , cursive;
+    margin-bottom: 50px;
+    
+}
+
+.ad .title h3{
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+.ad .adSubtitle{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.ad .adSubtitle h6{
+    color: #2b2222cc;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.ad .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ad .container .adBox{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    margin: 10px 10px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'Ysabeau', sans-serif !important;
+    font-weight: bold;
+}
+
+.ad .container .friendBox{
+    height: inherit !important;
+}
+
+.ad .container .adBox .image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.ad .container .adBox .adBoxTitle{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color:rgb(250, 39, 39) ;
+    font-size: 27px;
+}
+
+.ad .container .adBox .adBoxText{
+    color: #ddd;
+}
+
+.ad .container #audi{
+    background-image: url(resimler/audi.png);
+    background-size: cover;
+}
+.ad .container #bmw{
+    background-image: url(resimler/bmw.png);
+    background-size: cover;
+}
+.ad .container #mercedes{
+    background-image: url(resimler/mercedes.png);
+    background-size: cover;
+}
+.ad .container #hyundai{
+    background-image: url(resimler/hyundai.png);
+    background-size: cover;
+}
+.ad .container #honda{
+    background-image: url(resimler/honda.png);
+    background-size: cover;
+}
+.ad .container #nissan{
+    background-image: url(resimler/nissan.png);
+    background-size: cover;
+}
+
+
+
+.ad .container #Ali{
+    background-image: url();
+    background-size: cover;
+}
+
+.ad .container #berkay{
+    background-image: url();
+    background-size: cover;
+}
+
+.ad .container #kerem{
+    background-image: url();
+    background-size: cover;
+}
+
